@@ -20,7 +20,7 @@
       "packages/*"
     ]
   },
-  "resolutions": {
+  "overrides": {
     "react-error-overlay": "6.0.9"
   }
 }

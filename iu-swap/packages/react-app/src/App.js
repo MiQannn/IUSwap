@@ -3,7 +3,7 @@ import { useEthers } from "@usedapp/core";
 
 import styles from "./styles";
 import { usePools } from "./hooks";
-import { uniswapLogo } from "./assets";
+import { IU } from "./assets";
 import { Exchange, Loader, WalletButton } from "./components";
 
 const App = () => {
@@ -15,9 +15,9 @@ const App = () => {
       <div className={styles.innerContainer}>
         <header className={styles.header}>
           <img
-            src={uniswapLogo}
-            alt="uniswap-logo"
-            className="w-16 h-16 object-contain"
+            src={IU}
+            alt="IU-logo"
+            className="w-36 h-36 object-contain"
           />
           <WalletButton />
         </header>
