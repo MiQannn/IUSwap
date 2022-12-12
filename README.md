@@ -1,3 +1,4 @@
 # IUSwap
 This is a small project for my Thesis!
-https://iuswap.netlify.app
+- Claim page: https://iu-swap.vercel.app/
+- IU Swap: https://iuswap.netlify.app
