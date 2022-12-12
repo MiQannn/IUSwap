@@ -21,7 +21,6 @@ const App = () => {
           />
           <WalletButton />
         </header>
-
         <div className={styles.exchangeContainer}>
           <h1 className={styles.headTitle}>IUSwap 1.0</h1>
           <p className={styles.subTitle}>Exchange tokens in seconds</p>
