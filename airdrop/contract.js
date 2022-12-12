@@ -1,5 +1,5 @@
-export const contractAddress="0x4E94D5f39Ec884F39529D86f92C00D5E3715569D";
-export const contractABI= [
+export const tokenAddress="0x4E94D5f39Ec884F39529D86f92C00D5E3715569D";
+export const tokenABI= [
 	{
 		"inputs": [],
 		"stateMutability": "nonpayable",
