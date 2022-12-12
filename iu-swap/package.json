@@ -9,7 +9,7 @@
   ],
   "private": true,
   "scripts": {
-    "react-app:build": "yarn workspace @my-app/react-app build",
+    "build": "yarn workspace @my-app/react-app build",
     "react-app:eject": "yarn workspace @my-app/react-app eject",
     "react-app:ipfs": "yarn workspace @my-app/react-app ipfs",
     "start": "yarn workspace @my-app/react-app start",
