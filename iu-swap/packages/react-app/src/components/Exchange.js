@@ -37,13 +37,13 @@ const Exchange = ({ pools }) => {
   const { state: swapApproveState, send: swapApproveSend } =
     useContractFunction(fromTokenContract, "approve", {
       transactionName: "onApproveRequested",
-      gasLimitBufferPercentage: 1,
+      gasLimitBufferPercentage: 10,
     });
   // swap initiating a contract call (similar to use state) -> gives the state and the sender...
   const { state: swapExecuteState, send: swapExecuteSend } =
     useContractFunction(routerContract, "swapExactTokensForTokens", {
       transactionName: "swapExactTokensForTokens",
-      gasLimitBufferPercentage: 1,
+      gasLimitBufferPercentage: 10,
     });
 
   const isApproving = isOperationPending(swapApproveState);

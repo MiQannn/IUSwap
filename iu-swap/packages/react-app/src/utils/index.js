@@ -11,4 +11,4 @@ export {
   getSuccessMessage,
   useAmountsOut,
   useOnClickOutside
-} from './helpers';
+} from './functions';
