@@ -6,9 +6,30 @@ Use for rewarding students, after the event they joined.
 
 - IUSwap: https://iuswap.netlify.app
 
-Main page builds with Uniswap V2 protocol, allows students select Tokens, approve the Swap and swaps two Tokens.
+Main page builds with Uniswap V2 protocol, allows students select Tokens, approve the Swap and swaps between two Tokens.
 
-## Result
+## Installation
+- Clone the project: https://github.com/MiQannn/IUSwap.git
+- Direct to folder "airdrop" and install some dependencies
+```
+yarn add next react react-dom
+yarn add ethers
+yarn add dotenv
+```
+- To run project "airdrop", use command
+```
+yarn dev
+```
+- Direct to folder "iu-swap" and install yarn
+```
+yarn install
+```
+- To run project "iu-swap", use command
+```
+yarn run start
+```
+
+### Result
 **1/ Claim Page**
 
 
