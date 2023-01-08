@@ -2,7 +2,7 @@ import { ethers } from "ethers";
 import { tokenABI, tokenAddress } from "../../contract";
 
 const provider = new ethers.providers.JsonRpcProvider(
-  "https://eth-goerli.g.alchemy.com/v2/Z1crOe4M8apJ47z8xPRzAAzsm7zD4GwD"
+  ""
 );
 
 const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);

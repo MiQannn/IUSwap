@@ -5,6 +5,6 @@ export const ROUTER_ADDRESS = "0x48A4A2a74bafe8eEDC6c3AB584f38485257edcA1"; //"0
 export const DAPP_CONFIG = {
   readOnlyChainId: Goerli.chainId,
   readOnlyUrls: {
-    [Goerli.chainId]: "https://eth-goerli.g.alchemy.com/v2/Z1crOe4M8apJ47z8xPRzAAzsm7zD4GwD",
+    [Goerli.chainId]: "",
   },
 };
