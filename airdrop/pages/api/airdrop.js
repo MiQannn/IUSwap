@@ -2,8 +2,8 @@ import { ethers } from "ethers";
 import { tokenABI, tokenAddress } from "../../contract";
 
 const provider = new ethers.providers.JsonRpcProvider(
-  ""
-);
+  process.env.ALCHEMY_API
+)
 
 const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
@@ -20,6 +20,6 @@ export default async function (req, res) {
   await txn.wait();
 
   res.json({
-    message: `Transaction completed, contract address ${contractAddress}`,
+    message: `Transaction completed, contract address ${tokenAddress}`,
   });
 }

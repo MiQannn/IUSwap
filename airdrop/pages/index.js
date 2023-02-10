@@ -14,7 +14,7 @@ export default function Home() {
       },
     });
 
-    if (!response.ok) return alert("Please input Wallet Address!");
+    if (!response.ok) return alert("Request failed!");
 
     const data = await response.json();
 
