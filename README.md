@@ -33,7 +33,7 @@ yarn run start
 **1/ Claim Page**
 
 
- ![1](https://user-images.githubusercontent.com/90604968/209820236-8db5ba8e-5c53-4242-8966-c12b1d1cea61.png)
+ ![image](https://user-images.githubusercontent.com/90604968/218428659-70ac8337-947a-4ca9-9d8c-b0dee27006bb.png)
 
 **2/ IUSwap**
 
