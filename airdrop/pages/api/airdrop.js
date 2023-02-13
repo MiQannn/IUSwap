@@ -1,9 +1,7 @@
 import { ethers } from "ethers";
 import { tokenABI, tokenAddress } from "../../contract";
 
-const provider = new ethers.providers.JsonRpcProvider(
-  process.env.ALCHEMY_API
-)
+const provider = new ethers.providers.JsonRpcProvider(process.env.ALCHEMY_API);
 
 const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
