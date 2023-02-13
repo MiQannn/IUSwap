@@ -46,7 +46,7 @@ export default function Home() {
         onClick={airdrop}
         className={styles.button}
       >
-        Claim 5 tokens to address
+        Claim 5 ITYU Tokens to your wallet
       </button>
     </div>
   );
